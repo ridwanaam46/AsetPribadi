@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F9CD6</color>
+    <color name="colorPrimaryDark">#1F9CD6</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ijo">#4CAF50</color>
+    <color name="oren">#EB6840</color>
+    <color name="kuning">#FFEB3B</color>
+    <color name="pink">#E91E63</color>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+  >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:padding="15dp"
+            android:id="@+id/content_image_photo"
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="fitCenter"
+            tools:src="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/content_textview_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/content_image_photo"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/nama_aset"
+            android:layout_toRightOf="@id/content_image_photo" />
+
+        <TextView
+            android:id="@+id/content_textview_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content_textview_team"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/content_image_photo"
+            tools:text="@string/nama_aset"
+            android:layout_toRightOf="@id/content_image_photo" />
+        <TextView
+            android:layout_marginTop="80dp"
+            style="@style/TitleTextDetail"
+            android:layout_marginLeft="160dp"
+            android:text="Kumpulan Aset Pribadi yang dimiliki"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/content_image_photo"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+
+            android:layout_toRightOf="@id/content_image_photo">
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/btn_set_favorite"
+            android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/favorite"
+            android:textColor="@color/cardview_dark_background"
+                android:textSize="12sp" />
+
+            <Button
+
+                android:layout_margin="5dp"
+                android:id="@+id/btn_set_share"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnshare"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

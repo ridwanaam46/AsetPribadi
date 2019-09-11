@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/toolbar_card_view"
+        android:title="@string/mode_card_view" />
+
+    <item
+        android:id="@+id/toolbar_about_me"
+        android:title="@string/aboutMe"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_account_circle_black_24dp"/>
+
+    <item
+        android:id="@+id/toolbar_list_view"
+        android:title="@string/mode_list_view" />
+
+    <item
+        android:id="@+id/toolbar_grid_view"
+        android:title="@string/mode_grid_view"/>
+
+</menu>

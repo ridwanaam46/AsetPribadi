@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Aset Pribadi</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Thanks for Share</string>
+    <string name="title_detail_aset">Detail Aset</string>
+    <string name="title_shared_aset">Shared Social Aset</string>
+    <string name="aboutMe">About Me</string>
+    <string name="mode_card_view">Card View</string>
+    <string name="mode_list_view">List View</string>
+    <string name="mode_grid_view">Grid View</string>
+    <string name="email_dicoding">Hansamu46@gmail.com</string>
+
+    <string name="title_mode_card_view">Aset With Card View</string>
+    <string name="title_mode_list_view">Aset With List View</string>
+    <string name="title_mode_grid_view">Aset With Grid View</string>
+
+    <string name="stadium_name">Stadium Name</string>
+    <string name="nama">Muhammad Ridwan</string>
+
+    <string name="nama_aset">Nama Aset</string>
+    <string name="btnshare">Share</string>
+
+</resources>
